@@ -1,0 +1,541 @@
+@media (max-width: 711px) {
+  .account__left {
+    transform: translateX(-50px);
+  }
+}
+
+@media (max-width: 1101px) {
+
+}
+
+@media (max-width: 1100px) {
+  .section__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__left {
+    .title, .description {
+      text-align: center;
+    }
+    &__down {
+      display: flex;
+      flex-direction: column;
+      button, p, a {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .section__right {
+    margin-top: 30px;
+    background: url("../assets/mobile.png") 50%/contain no-repeat;
+    height: 300px;
+    &__question {
+      width: 32px;
+      height: 32px;
+      margin-left: 180px;
+      &::before {
+        content: url("../assets/question2.png");
+        padding-left: 12px;
+        padding-top: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .phone {
+    &__list {
+      max-width: 70%;
+      &__top {
+        &__tariffe, &__image {
+          display: none;
+        }
+        &__number, &__operater {
+          font-size: 24px;
+        }
+        &__operater {
+          margin-left: 130px;
+        }
+      }
+      &__info {
+        &__tariffe {
+          display: none;
+        }
+        &__number {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .article {
+    &__list {
+      &__col {
+        p {
+          font-size: 16px;
+          max-width: 250px;
+        }
+      }
+      &__image {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+}
+
+@media (max-width: 935px) {
+  .slider {
+    h1 {
+      font-size: 32px;
+    }
+    &__left, &__right {
+      display: none;
+    }
+    &__info {
+      display: flex;
+      justify-content: center;
+    }
+    &__previous {
+      margin-right: 100px;
+    }
+    &__next {
+      margin-left: 100px;
+    }
+  }
+  .footer {
+    &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__left {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+      padding-left: 20px;
+      border-bottom: 1px solid #fff;
+      p {
+        max-width: 600px;
+      }
+    }
+    &__right {
+      border-left: none;
+      &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 833px) {
+  .main__right {
+    display: none;
+    max-width: 100%;
+  }
+  .main {
+    h1 {
+      text-align: center !important;
+    }
+    &__left {
+      margin: 30px auto;
+      &__title {
+        display: none;
+      }
+    }
+    &__right {
+      padding-left: 20px;
+      text-align: center;
+      margin-left: 0;
+      h3 {
+        display: none;
+      }
+      button {
+        background: #000 !important;
+      }
+      span, h4, p {
+        text-align: left;
+      }
+    }
+  }
+  .article {
+    &__list {
+      &__col {
+        p {
+          font-size: 14px;
+          max-width: 220px;
+        }
+      }
+      &__image {
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 723px) {
+  .phone {
+    &__content {
+      .title {
+        font-size: 38px;
+        line-height: 45px;
+      }
+    }
+    &__list {
+      max-width: 90%;
+      &__top {
+        &__operater {
+          display: none;
+        }
+      }
+      &__info {
+        &__image {
+          display: none;
+        }
+        &__number {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 695px) {
+  .article {
+    &__content {
+      h1 {
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+    }
+    &__list {
+      &__row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+      &__col {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        p {
+          max-width: 600px;
+          margin-left: 20px;
+          font-size: 18px;
+        font-family: $font-text;
+
+        }
+      }
+      &__image {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 554px) {
+  .section__left {
+    .title {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  .phone {
+    &__list {
+      &__top {
+        &__number, &__all {
+          font-size: 18px;
+        }
+      }
+      &__info {
+        &__number {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .article {
+    &__content {
+      h1 {
+        font-size: 32px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .banner {
+    max-height: 200px !important;
+    &__content {
+      h1 {
+        font-size: 28px !important;
+        line-height: 36px;
+        text-align: center;
+      }
+      &__btn {
+        position: absolute;
+        left: 100px;
+        bottom: -20px;
+      }
+    }
+  }
+  .footer {
+    &__left {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 600px;
+      p {
+        margin-top: 20px;
+      }
+    }
+    &__right {
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-left: none;
+      &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+      }
+      &__rules {
+        margin-top: 30px;
+        margin-left: 30px;
+        a {
+          display: none;
+        }
+      }
+      &__input {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 482px) {
+  .footer {
+    &__left {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 500px;
+      p {
+        margin-top: 20px;
+      }
+    }
+    &__right {
+      &__form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &__input {
+        max-width: 300px;
+        // width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 462px) {
+  .main {
+    &__menu {
+      &__one {
+        font-size: 18px;
+      }
+      &__two {
+        font-size: 18px;
+      }
+    }
+  }
+  .wrapper {
+    &__image {
+      display: block;
+    }
+  }
+  .aside {
+    background: none;
+    color: #000;
+    &__wrapper {
+      opacity: 1;
+      background: none;
+    }
+    &__content {
+      ul {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 432px) {
+  .phone {
+    &__list {
+      &__info {
+        &__number {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .article {
+    &__content {
+      h1 {
+        font-size: 28px;
+      }
+    }
+  }
+  .banner {
+    &__content {
+      &__btn {
+        position: absolute;
+        left: 60px;
+        bottom: -20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .slider {
+    &__previous {
+      margin-right: 80px;
+    }
+    &__next {
+      margin-left: 80px;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    &__middle {
+      transform: scale(0.8);
+    }
+    &__list {
+      margin-top: 0;
+    }
+  }
+  .footer {
+    &__right {
+      &__reg {
+        font-size: 18px;
+      }
+      &__rules {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .phone {
+    &__content {
+      .title {
+        font-size: 32px;
+        line-height: 38px;
+      }
+    }
+  }
+  .main {
+    &__menu {
+      &__one {
+        font-size: 14px;
+      }
+      &__two {
+        font-size: 14px;
+      }
+    }
+    h1 {
+      font-size: 32px;
+    }
+    &__right {
+      button {
+        font-size: 18px;
+      }
+    }
+  }
+  .article {
+    &__content {
+      h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .banner {
+    &__content {
+      &__btn {
+        position: absolute;
+        left: 40px;
+        bottom: -20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 368px) {
+  .phone {
+    &__list {
+      &__info {
+        &__number {
+          font-size: 16px;
+        }
+        &__btn {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .slider {
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+  .footer {
+    &__right {
+      &__input {
+        max-width: 190px;
+      }
+    }
+  }
+}
+
+@media (max-width: 343px) {
+  .phone {
+    &__list {
+      &__info {
+        &__number {
+          font-size: 14px;
+        }
+        &__btn {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 323px) {
+  .section__left__down {
+    button {
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+  }
+  .banner {
+    &__content {
+      &__btn {
+        position: absolute;
+        left: 30px;
+        bottom: -20px;
+      }
+    }
+  }
+}
